@@ -7,7 +7,8 @@ Este token tiene una validez de 24 horas, por lo que, si se realiza la consulta 
 
 Para iniciar, debe ingresar las direcciones MAC de cada sensor que necesita evaluar en la siguiente línea:
 
-        # Lista de direcciones MAC, copielas tal cual aparecen en el API, agregue comillas y separe por comas.        
+        # Lista de direcciones MAC, copielas tal cual aparecen en el API, 
+        # agregue comillas y separe por comas.        
       
          macs = ["00:6E:02:00:2A:84", "00:6E:02:00:3A:A0", "00:6E:02:00:2F:E8" ]
 
