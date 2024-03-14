@@ -7,7 +7,7 @@ Este token tiene una validez de 24 horas, por lo que, si se realiza la consulta 
 
 Para iniciar, debe ingresar las direcciones MAC de cada sensor que necesita evaluar en la siguiente línea:
 
-        # Lista de direcciones MAC -        
+        # Lista de direcciones MAC, copielas tal cual aparecen en el API, agregue comillas y separe por comas.        
       
          macs = ["00:6E:02:00:2A:84", "00:6E:02:00:3A:A0", "00:6E:02:00:2F:E8" ]
 
@@ -45,5 +45,7 @@ Tenga en cuenta que las librerías deben estar instaladas, para ello debe ejecut
 
       pip install pandas
 
+# Salida
 
-
+Verá que en la carpeta que haya seleccionado como _path_ empezarán a aparecer archivos pdf con el informe de cada sensor. Cada uno de estos archivos tendrá el nombre de las direcciones mac respectivas.
+Si no encuentra el informe de algunos sensores, puede ser que estén apagados.
