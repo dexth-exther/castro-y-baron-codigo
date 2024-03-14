@@ -1,4 +1,4 @@
-# castro-y-baron-codigo
+# Uso de algoritmo de diagnóstico
 En este repositorio se encuentra alojado el código y la documentación necesaria para la ejecución del Script diagnóstico para sensores Xovis y su calibración.
 
 El Script llamado "algoritmo-diagnóstico.py" contiene una generación de token para el acceso a la plataforma Xovis.
